@@ -1,0 +1,11 @@
+{
+  "name": "life4cut-booth",
+  "version": "0.1.0",
+  "description": "config 기반 다중 연예인 인생네컷 부스 (바닐라 JS)",
+  "scripts": {
+    "build": "node scripts/build-manifest.js",
+    "serve": "python -m http.server 8000",
+    "deploy": "node scripts/deploy.js"
+  },
+  "license": "MIT"
+}

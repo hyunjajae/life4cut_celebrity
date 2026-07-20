@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>인생네컷 부스</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 카메라 원본(숨김). 촬영 캔버스가 이걸 그림 -->
+  <video id="camera" playsinline muted></video>
+
+  <div id="app">
+
+    <!-- ① 랜딩 -->
+    <section id="screen-landing" class="screen active">
+      <div class="center-col">
+        <h1>인생네컷 부스 📸</h1>
+        <p class="sub">카메라로 여러 컷을 찍고,<br />마음에 드는 컷을 골라 스티커로 꾸며요</p>
+        <button id="startBtn" class="primary-btn">시작하기</button>
+        <p id="landingError" class="err"></p>
+      </div>
+    </section>
+
+    <!-- ② 프레임(연예인) 선택 -->
+    <section id="screen-select" class="screen">
+      <h2 class="screen-title">원하는 프레임을 골라주세요</h2>
+      <p class="screen-sub">프레임을 선택하면 바로 촬영이 시작됩니다 📸</p>
+      <div id="celebGrid" class="celeb-grid"></div>
+    </section>
+
+    <!-- ③ 촬영 -->
+    <section id="screen-booth" class="screen booth">
+      <div class="booth-top">
+        <span id="boothProgress" class="pill">1 / 8</span>
+        <button id="facingBtn" class="mini-btn">📷 전면</button>
+      </div>
+      <div class="booth-stage">
+        <canvas id="boothCanvas"></canvas>
+        <div id="boothCountdown" class="countdown hidden"></div>
+        <div id="boothFlash" class="flash"></div>
+      </div>
+      <p class="space-hint">스페이스바를 누르면 바로 촬영</p>
+    </section>
+
+    <!-- ④ 컷 선택 (레이아웃 + 실제 프레임 미리보기) -->
+    <section id="screen-cuts" class="screen">
+      <h2 class="screen-title">컷 고르기</h2>
+      <div id="layoutPicker" class="layout-picker"></div>
+      <div class="cuts-body">
+        <div id="cutsPreview" class="cuts-preview"></div>
+        <div class="cuts-right">
+          <p id="cutHint" class="hint"></p>
+          <div id="shotGallery" class="shot-gallery"></div>
+          <button id="toComposeBtn" class="primary-btn" disabled>꾸미기로 →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ 꾸미기 / 저장 -->
+    <section id="screen-compose" class="screen compose">
+      <h2 class="screen-title">사진 · 영상 꾸미기 🎨</h2>
+      <div class="compose-wrap">
+        <div id="composeStage" class="compose-stage"></div>
+        <div class="compose-side">
+          <label class="ctrl-row">
+            <span class="ctrl-label">프레임 색</span>
+            <input type="color" id="frameColor" />
+            <span id="frameSwatches" class="swatches"></span>
+          </label>
+          <label class="ctrl-row">
+            <span class="ctrl-label">하단 문구</span>
+            <input type="text" id="captionInput" maxlength="40" placeholder="fromis_9 x gimhyungyu" />
+          </label>
+
+          <div class="panel-title">스티커 (탭 추가 · 드래그 이동 · 모서리 크기)</div>
+          <div id="stickerPalette" class="sticker-palette"></div>
+
+          <button id="downloadBtn" class="primary-btn wide">⬇️ 사진 저장 (PNG)</button>
+          <button id="videoSaveBtn" class="primary-btn wide">🎬 영상 저장 (타임랩스)</button>
+          <span id="videoStatus" class="video-status"></span>
+
+          <button id="retakeBtn" class="ghost-btn wide">🔄 처음부터</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

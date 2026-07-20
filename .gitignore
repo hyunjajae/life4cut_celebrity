@@ -1,0 +1,17 @@
+# OS / 편집기 잡파일
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# 파이썬 도구 캐시
+__pycache__/
+*.pyc
+
+# 배경제거 도구 결과물(원본만 올리면 됨)
+*_nobg.png
+*_nobg/
+
+# node (현재는 의존성 없음)
+node_modules/
