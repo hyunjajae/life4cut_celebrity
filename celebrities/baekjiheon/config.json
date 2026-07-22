@@ -1,7 +1,7 @@
 {
   "id": "baekjiheon",
   "displayName": "백지헌",
-  "published": false,
+  "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",
   "shotCount": 8,
