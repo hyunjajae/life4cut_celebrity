@@ -1,7 +1,7 @@
 {
   "id": "parkjiwon",
   "displayName": "박지원",
-  "published": false,
+  "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",
   "shotCount": 8,
