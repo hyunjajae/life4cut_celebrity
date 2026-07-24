@@ -233,3 +233,15 @@ body {
 
 /* 꾸미기: 가운데 정렬 */
 .compose-wrap { align-items: center; }
+
+/* 그룹(2단계) 선택화면 */
+.celeb-name { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.celeb-sub { font-size: 12px; font-weight: 600; opacity: 0.9; }
+.celeb-back {
+  grid-column: 1 / -1; justify-self: start;
+  background: rgba(255,255,255,0.08); color: #fff;
+  border: 1px solid rgba(255,255,255,0.25); border-radius: 999px;
+  padding: 9px 18px; cursor: pointer; font-size: 14px; font-weight: 700;
+  margin-bottom: 4px;
+}
+.celeb-back:active { transform: scale(0.97); }

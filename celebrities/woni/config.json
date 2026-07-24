@@ -1,9 +1,9 @@
 {
-  "id": "songhayoung",
-  "displayName": "송하영",
+  "id": "woni",
+  "displayName": "원이",
   "order": 1,
-  "group": "fromis9",
   "published": true,
+  "caption": "RESCENE x gimhyungyu",
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",
   "shotCount": 8,

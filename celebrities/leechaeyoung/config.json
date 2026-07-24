@@ -2,6 +2,7 @@
   "id": "leechaeyoung",
   "displayName": "이채영",
   "order": 3,
+  "group": "fromis9",
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",

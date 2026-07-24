@@ -2,6 +2,7 @@
   "id": "leenagyung",
   "displayName": "이나경",
   "order": 4,
+  "group": "fromis9",
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",
