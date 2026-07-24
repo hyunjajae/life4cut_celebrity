@@ -1,192 +1,11 @@
 {
-  "generatedAt": "2026-07-24T05:17:15.689Z",
+  "generatedAt": "2026-07-24T05:20:31.057Z",
   "count": 5,
   "celebrities": [
     {
-      "id": "baekjiheon",
-      "displayName": "백지헌",
-      "published": true,
-      "theme": {
-        "primary": "#FFFFFF",
-        "filter": "cool"
-      },
-      "thumb": "thumb.png",
-      "shotCount": 8,
-      "countdown": 8,
-      "stickers": [],
-      "overlays": [
-        "frame1.png",
-        "frame2.png",
-        "frame3.png",
-        "frame4.png"
-      ],
-      "layouts": [
-        {
-          "id": "1x4",
-          "name": "세로 1×4",
-          "frameOverlay": "frame_1x4.png",
-          "canvasSize": {
-            "w": 720,
-            "h": 2160
-          },
-          "cutLayout": [
-            {
-              "x": 40,
-              "y": 60,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 560,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 1060,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 1560,
-              "w": 640,
-              "h": 460
-            }
-          ]
-        },
-        {
-          "id": "2x2",
-          "name": "2×2",
-          "frameOverlay": "frame_2x2.png",
-          "canvasSize": {
-            "w": 1400,
-            "h": 1120
-          },
-          "cutLayout": [
-            {
-              "x": 40,
-              "y": 40,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 720,
-              "y": 40,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 540,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 720,
-              "y": 540,
-              "w": 640,
-              "h": 460
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "leechaeyoung",
-      "displayName": "이채영",
-      "published": true,
-      "theme": {
-        "primary": "#FFFFFF",
-        "filter": "cool"
-      },
-      "thumb": "thumb.png",
-      "shotCount": 8,
-      "countdown": 8,
-      "stickers": [],
-      "overlays": [
-        "frame1.png",
-        "frame2.png",
-        "frame3.png",
-        "frame4.png"
-      ],
-      "layouts": [
-        {
-          "id": "1x4",
-          "name": "세로 1×4",
-          "frameOverlay": "frame_1x4.png",
-          "canvasSize": {
-            "w": 720,
-            "h": 2160
-          },
-          "cutLayout": [
-            {
-              "x": 40,
-              "y": 60,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 560,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 1060,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 1560,
-              "w": 640,
-              "h": 460
-            }
-          ]
-        },
-        {
-          "id": "2x2",
-          "name": "2×2",
-          "frameOverlay": "frame_2x2.png",
-          "canvasSize": {
-            "w": 1400,
-            "h": 1120
-          },
-          "cutLayout": [
-            {
-              "x": 40,
-              "y": 40,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 720,
-              "y": 40,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 40,
-              "y": 540,
-              "w": 640,
-              "h": 460
-            },
-            {
-              "x": 720,
-              "y": 540,
-              "w": 640,
-              "h": 460
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "leenagyung",
-      "displayName": "이나경",
+      "id": "songhayoung",
+      "displayName": "송하영",
+      "order": 1,
       "published": true,
       "theme": {
         "primary": "#FFFFFF",
@@ -278,6 +97,7 @@
     {
       "id": "parkjiwon",
       "displayName": "박지원",
+      "order": 2,
       "published": true,
       "theme": {
         "primary": "#FFFFFF",
@@ -367,8 +187,193 @@
       ]
     },
     {
-      "id": "songhayoung",
-      "displayName": "송하영",
+      "id": "leechaeyoung",
+      "displayName": "이채영",
+      "order": 3,
+      "published": true,
+      "theme": {
+        "primary": "#FFFFFF",
+        "filter": "cool"
+      },
+      "thumb": "thumb.png",
+      "shotCount": 8,
+      "countdown": 8,
+      "stickers": [],
+      "overlays": [
+        "frame1.png",
+        "frame2.png",
+        "frame3.png",
+        "frame4.png"
+      ],
+      "layouts": [
+        {
+          "id": "1x4",
+          "name": "세로 1×4",
+          "frameOverlay": "frame_1x4.png",
+          "canvasSize": {
+            "w": 720,
+            "h": 2160
+          },
+          "cutLayout": [
+            {
+              "x": 40,
+              "y": 60,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 560,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 1060,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 1560,
+              "w": 640,
+              "h": 460
+            }
+          ]
+        },
+        {
+          "id": "2x2",
+          "name": "2×2",
+          "frameOverlay": "frame_2x2.png",
+          "canvasSize": {
+            "w": 1400,
+            "h": 1120
+          },
+          "cutLayout": [
+            {
+              "x": 40,
+              "y": 40,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 720,
+              "y": 40,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 540,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 720,
+              "y": 540,
+              "w": 640,
+              "h": 460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leenagyung",
+      "displayName": "이나경",
+      "order": 4,
+      "published": true,
+      "theme": {
+        "primary": "#FFFFFF",
+        "filter": "cool"
+      },
+      "thumb": "thumb.png",
+      "shotCount": 8,
+      "countdown": 8,
+      "stickers": [],
+      "overlays": [
+        "frame1.png",
+        "frame2.png",
+        "frame3.png",
+        "frame4.png"
+      ],
+      "layouts": [
+        {
+          "id": "1x4",
+          "name": "세로 1×4",
+          "frameOverlay": "frame_1x4.png",
+          "canvasSize": {
+            "w": 720,
+            "h": 2160
+          },
+          "cutLayout": [
+            {
+              "x": 40,
+              "y": 60,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 560,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 1060,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 1560,
+              "w": 640,
+              "h": 460
+            }
+          ]
+        },
+        {
+          "id": "2x2",
+          "name": "2×2",
+          "frameOverlay": "frame_2x2.png",
+          "canvasSize": {
+            "w": 1400,
+            "h": 1120
+          },
+          "cutLayout": [
+            {
+              "x": 40,
+              "y": 40,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 720,
+              "y": 40,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 40,
+              "y": 540,
+              "w": 640,
+              "h": 460
+            },
+            {
+              "x": 720,
+              "y": 540,
+              "w": 640,
+              "h": 460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baekjiheon",
+      "displayName": "백지헌",
+      "order": 5,
       "published": true,
       "theme": {
         "primary": "#FFFFFF",

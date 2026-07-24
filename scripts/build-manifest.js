@@ -52,6 +52,14 @@ function build() {
     console.log(`  ✓ 포함: ${cfg.id} (${cfg.displayName || '이름없음'})`);
   }
 
+  // 선택화면 표시 순서: config의 order(작을수록 먼저) → order 없으면 이름순으로 뒤에
+  celebrities.sort((a, b) => {
+    const ao = typeof a.order === 'number' ? a.order : Infinity;
+    const bo = typeof b.order === 'number' ? b.order : Infinity;
+    if (ao !== bo) return ao - bo;
+    return String(a.displayName || a.id).localeCompare(String(b.displayName || b.id), 'ko');
+  });
+
   const manifest = {
     generatedAt: new Date().toISOString(),
     count: celebrities.length,

@@ -1,6 +1,7 @@
 {
   "id": "leechaeyoung",
   "displayName": "이채영",
+  "order": 3,
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",

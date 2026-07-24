@@ -1,6 +1,7 @@
 {
   "id": "baekjiheon",
   "displayName": "백지헌",
+  "order": 5,
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",

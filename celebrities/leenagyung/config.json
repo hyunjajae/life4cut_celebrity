@@ -1,6 +1,7 @@
 {
   "id": "leenagyung",
   "displayName": "이나경",
+  "order": 4,
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",

@@ -1,6 +1,7 @@
 {
   "id": "parkjiwon",
   "displayName": "박지원",
+  "order": 2,
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",

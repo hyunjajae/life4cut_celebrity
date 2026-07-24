@@ -1,6 +1,7 @@
 {
   "id": "songhayoung",
   "displayName": "송하영",
+  "order": 1,
   "published": true,
   "theme": { "primary": "#FFFFFF", "filter": "cool" },
   "thumb": "thumb.png",
